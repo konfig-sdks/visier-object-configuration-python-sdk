@@ -1,0 +1,30 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from visier_object_configuration_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from visier_object_configuration_python_sdk.model.analytic_object_filter_dto import AnalyticObjectFilterDTO
+from visier_object_configuration_python_sdk.model.calculation_concept_configuration_dto import CalculationConceptConfigurationDTO
+from visier_object_configuration_python_sdk.model.calculation_concept_configuration_map_dto import CalculationConceptConfigurationMapDTO
+from visier_object_configuration_python_sdk.model.calculation_concept_dto import CalculationConceptDTO
+from visier_object_configuration_python_sdk.model.calculation_concept_list_dto import CalculationConceptListDTO
+from visier_object_configuration_python_sdk.model.concept_configuration_result_dto import ConceptConfigurationResultDTO
+from visier_object_configuration_python_sdk.model.dimension_filter_dto import DimensionFilterDTO
+from visier_object_configuration_python_sdk.model.dimension_member_dto import DimensionMemberDTO
+from visier_object_configuration_python_sdk.model.dimension_member_dto_dimension_member import DimensionMemberDTODimensionMember
+from visier_object_configuration_python_sdk.model.google_protobuf_any import GoogleProtobufAny
+from visier_object_configuration_python_sdk.model.perspective_configuration_dto import PerspectiveConfigurationDTO
+from visier_object_configuration_python_sdk.model.perspective_node_dto import PerspectiveNodeDTO
+from visier_object_configuration_python_sdk.model.selection_concept_configuration_dto import SelectionConceptConfigurationDTO
+from visier_object_configuration_python_sdk.model.selection_concept_configuration_map_dto import SelectionConceptConfigurationMapDTO
+from visier_object_configuration_python_sdk.model.selection_concept_dto import SelectionConceptDTO
+from visier_object_configuration_python_sdk.model.selection_concept_list_dto import SelectionConceptListDTO
+from visier_object_configuration_python_sdk.model.status import Status
